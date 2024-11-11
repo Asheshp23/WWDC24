@@ -31,3 +31,7 @@ struct TodoList: View {
     }
   }
 }
+
+#Preview {
+  TodoList(items: .constant([TodoItem(id: UUID(), title: "Meditation")]))
+}

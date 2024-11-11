@@ -4,10 +4,9 @@
 //
 //  Created by Ashesh Patel on 2024-06-25.
 //
-
 import SwiftUI
 
-struct BreatheView: View {
+struct PetTheDogButton: View {
   @State private var petCount = 0
   
   var body: some View {
@@ -16,7 +15,13 @@ struct BreatheView: View {
     } label: {
       Label("Pet the Dog", systemImage: "dog")
     }
-    .symbolEffect(.bounce,options: .repeat(90), value: petCount)
+    .symbolEffect(.bounce,
+                  options: .repeat(90),
+                  value: petCount)
     .font(.largeTitle)
   }
+}
+
+#Preview {
+  PetTheDogButton()
 }

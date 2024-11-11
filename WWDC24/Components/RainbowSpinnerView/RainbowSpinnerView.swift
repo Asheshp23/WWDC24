@@ -1,13 +1,12 @@
 //
-//  CirculerProgressView.swift
+//  RainbowSpinnerView.swift
 //  WWDC24
 //
 //  Created by Ashesh Patel on 2024-07-18.
 //
-
 import SwiftUI
 
-struct CirculerProgressView: View {
+struct RainbowSpinnerView: View {
   let gradientColors: [Color] = [.red,.orange,.yellow,.green,.blue, .purple, .pink]
   @State var degrees:Double = 0
   
@@ -37,7 +36,7 @@ struct CirculerProgressView: View {
     }
   }
 }
-  
-  #Preview {
-    CirculerProgressView()
-  }
+
+#Preview {
+  RainbowSpinnerView()
+}

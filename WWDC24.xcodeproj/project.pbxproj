@@ -3,24 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F09152D2C1D339B00F3A7C5 /* WheelPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F09152C2C1D339B00F3A7C5 /* WheelPickerView.swift */; };
-		0F3AEA332CE2A271002EC151 /* KeyframeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3AEA322CE2A271002EC151 /* KeyframeAnimationView.swift */; };
-		0F5C96492C23428D00311A55 /* MeshGradientWithWheelPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C96482C23428D00311A55 /* MeshGradientWithWheelPickerView.swift */; };
-		0F62F23E2C5AB65A00B61F14 /* IngredientAutocompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F62F23D2C5AB65A00B61F14 /* IngredientAutocompleteView.swift */; };
-		0F62F2402C5AB68D00B61F14 /* SevenElevenBreathTechView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F62F23F2C5AB68D00B61F14 /* SevenElevenBreathTechView.swift */; };
-		0F62F2422C5AB7F400B61F14 /* ingredients2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 0F62F2412C5AB7F400B61F14 /* ingredients2.csv */; };
-		0F9F09C22C2B4C3F004D121D /* BreatheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9F09C12C2B4C3F004D121D /* BreatheView.swift */; };
-		0F9F09C42C2B4C57004D121D /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9F09C32C2B4C57004D121D /* CircleView.swift */; };
-		0F9F09C62C2B4C63004D121D /* TruckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9F09C52C2B4C63004D121D /* TruckView.swift */; };
-		0F9F09C92C2B4CA5004D121D /* GearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9F09C82C2B4CA5004D121D /* GearView.swift */; };
-		0FB5D4CC2C496C4C00AE3A33 /* StyledRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB5D4CB2C496C4C00AE3A33 /* StyledRectangle.swift */; };
-		0FB5D4CE2C496E1900AE3A33 /* CirculerProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB5D4CD2C496E1900AE3A33 /* CirculerProgressView.swift */; };
-		0FCCFAA02C5354A70079F8D8 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCCFA9F2C5354A70079F8D8 /* TodoList.swift */; };
-		0FCCFAA22C5354BD0079F8D8 /* TodoItemAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCCFAA12C5354BD0079F8D8 /* TodoItemAddButton.swift */; };
 		0FCE13E22C20B31400089E4C /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FCE13E12C20B31400089E4C /* WidgetKit.framework */; };
 		0FCE13E42C20B31400089E4C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FCE13E32C20B31400089E4C /* SwiftUI.framework */; };
 		0FCE13E72C20B31400089E4C /* ControlBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE13E62C20B31400089E4C /* ControlBundle.swift */; };
@@ -76,20 +62,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0F09152C2C1D339B00F3A7C5 /* WheelPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelPickerView.swift; sourceTree = "<group>"; };
-		0F3AEA322CE2A271002EC151 /* KeyframeAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyframeAnimationView.swift; sourceTree = "<group>"; };
-		0F5C96482C23428D00311A55 /* MeshGradientWithWheelPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradientWithWheelPickerView.swift; sourceTree = "<group>"; };
-		0F62F23D2C5AB65A00B61F14 /* IngredientAutocompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientAutocompleteView.swift; sourceTree = "<group>"; };
-		0F62F23F2C5AB68D00B61F14 /* SevenElevenBreathTechView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenElevenBreathTechView.swift; sourceTree = "<group>"; };
-		0F62F2412C5AB7F400B61F14 /* ingredients2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = ingredients2.csv; sourceTree = "<group>"; };
-		0F9F09C12C2B4C3F004D121D /* BreatheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheView.swift; sourceTree = "<group>"; };
-		0F9F09C32C2B4C57004D121D /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
-		0F9F09C52C2B4C63004D121D /* TruckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckView.swift; sourceTree = "<group>"; };
-		0F9F09C82C2B4CA5004D121D /* GearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearView.swift; sourceTree = "<group>"; };
-		0FB5D4CB2C496C4C00AE3A33 /* StyledRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyledRectangle.swift; sourceTree = "<group>"; };
-		0FB5D4CD2C496E1900AE3A33 /* CirculerProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirculerProgressView.swift; sourceTree = "<group>"; };
-		0FCCFA9F2C5354A70079F8D8 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
-		0FCCFAA12C5354BD0079F8D8 /* TodoItemAddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemAddButton.swift; sourceTree = "<group>"; };
 		0FCE13DF2C20B31400089E4C /* ControlExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ControlExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FCE13E12C20B31400089E4C /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		0FCE13E32C20B31400089E4C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -109,6 +81,21 @@
 		0FD9C11A2C17B0FC00BD3CDD /* WWDC24UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC24UITests.swift; sourceTree = "<group>"; };
 		0FD9C11C2C17B0FC00BD3CDD /* WWDC24UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC24UITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0F3AEA342CE2A90B002EC151 /* IngredientAutocompleteView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = IngredientAutocompleteView; sourceTree = "<group>"; };
+		0F3AEA352CE2A91D002EC151 /* KeyframeAnimationView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = KeyframeAnimationView; sourceTree = "<group>"; };
+		0F3AEA382CE2A948002EC151 /* TodoListView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = TodoListView; sourceTree = "<group>"; };
+		0F3AEA392CE2AA99002EC151 /* GearView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = GearView; sourceTree = "<group>"; };
+		0F3AEA3A2CE2AABE002EC151 /* WheelPickerView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = WheelPickerView; sourceTree = "<group>"; };
+		0F3AEA3B2CE2AAE1002EC151 /* TruckView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = TruckView; sourceTree = "<group>"; };
+		0F3AEA3C2CE2AB18002EC151 /* PulsatingCircleView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = PulsatingCircleView; sourceTree = "<group>"; };
+		0F3AEA3D2CE2AB7E002EC151 /* PetTheDogButton */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = PetTheDogButton; sourceTree = "<group>"; };
+		0F3AEA3E2CE2ABEF002EC151 /* MeshGradientWithWheelPickerView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = MeshGradientWithWheelPickerView; sourceTree = "<group>"; };
+		0F3AEA3F2CE2B065002EC151 /* RotatingBorderRectangle */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = RotatingBorderRectangle; sourceTree = "<group>"; };
+		0F3AEA402CE2B0F7002EC151 /* RainbowSpinnerView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = RainbowSpinnerView; sourceTree = "<group>"; };
+		0F3AEA412CE2B360002EC151 /* BreathingExerciseView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = BreathingExerciseView; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0FCE13DC2C20B31400089E4C /* Frameworks */ = {
@@ -147,19 +134,18 @@
 		0F9F09C72C2B4C7E004D121D /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				0F3AEA322CE2A271002EC151 /* KeyframeAnimationView.swift */,
-				0F62F23D2C5AB65A00B61F14 /* IngredientAutocompleteView.swift */,
-				0FCCFAA12C5354BD0079F8D8 /* TodoItemAddButton.swift */,
-				0FCCFA9F2C5354A70079F8D8 /* TodoList.swift */,
-				0F9F09C82C2B4CA5004D121D /* GearView.swift */,
-				0F09152C2C1D339B00F3A7C5 /* WheelPickerView.swift */,
-				0F9F09C52C2B4C63004D121D /* TruckView.swift */,
-				0F9F09C32C2B4C57004D121D /* CircleView.swift */,
-				0F9F09C12C2B4C3F004D121D /* BreatheView.swift */,
-				0F5C96482C23428D00311A55 /* MeshGradientWithWheelPickerView.swift */,
-				0FB5D4CB2C496C4C00AE3A33 /* StyledRectangle.swift */,
-				0FB5D4CD2C496E1900AE3A33 /* CirculerProgressView.swift */,
-				0F62F23F2C5AB68D00B61F14 /* SevenElevenBreathTechView.swift */,
+				0F3AEA352CE2A91D002EC151 /* KeyframeAnimationView */,
+				0F3AEA342CE2A90B002EC151 /* IngredientAutocompleteView */,
+				0F3AEA382CE2A948002EC151 /* TodoListView */,
+				0F3AEA392CE2AA99002EC151 /* GearView */,
+				0F3AEA3A2CE2AABE002EC151 /* WheelPickerView */,
+				0F3AEA3B2CE2AAE1002EC151 /* TruckView */,
+				0F3AEA3C2CE2AB18002EC151 /* PulsatingCircleView */,
+				0F3AEA3D2CE2AB7E002EC151 /* PetTheDogButton */,
+				0F3AEA3E2CE2ABEF002EC151 /* MeshGradientWithWheelPickerView */,
+				0F3AEA3F2CE2B065002EC151 /* RotatingBorderRectangle */,
+				0F3AEA402CE2B0F7002EC151 /* RainbowSpinnerView */,
+				0F3AEA412CE2B360002EC151 /* BreathingExerciseView */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -214,7 +200,6 @@
 				0FD9C0FF2C17B0FB00BD3CDD /* WWDC24App.swift */,
 				0FD9C1012C17B0FB00BD3CDD /* ContentView.swift */,
 				0FD9C1032C17B0FC00BD3CDD /* Assets.xcassets */,
-				0F62F2412C5AB7F400B61F14 /* ingredients2.csv */,
 				0F9F09C72C2B4C7E004D121D /* Components */,
 				0FD9C1052C17B0FC00BD3CDD /* Preview Content */,
 			);
@@ -279,6 +264,20 @@
 			);
 			dependencies = (
 				0FCE13F02C20B31500089E4C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0F3AEA342CE2A90B002EC151 /* IngredientAutocompleteView */,
+				0F3AEA352CE2A91D002EC151 /* KeyframeAnimationView */,
+				0F3AEA382CE2A948002EC151 /* TodoListView */,
+				0F3AEA392CE2AA99002EC151 /* GearView */,
+				0F3AEA3A2CE2AABE002EC151 /* WheelPickerView */,
+				0F3AEA3B2CE2AAE1002EC151 /* TruckView */,
+				0F3AEA3C2CE2AB18002EC151 /* PulsatingCircleView */,
+				0F3AEA3D2CE2AB7E002EC151 /* PetTheDogButton */,
+				0F3AEA3E2CE2ABEF002EC151 /* MeshGradientWithWheelPickerView */,
+				0F3AEA3F2CE2B065002EC151 /* RotatingBorderRectangle */,
+				0F3AEA402CE2B0F7002EC151 /* RainbowSpinnerView */,
+				0F3AEA412CE2B360002EC151 /* BreathingExerciseView */,
 			);
 			name = WWDC24;
 			productName = WWDC24;
@@ -382,7 +381,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FD9C1072C17B0FC00BD3CDD /* Preview Assets.xcassets in Resources */,
-				0F62F2422C5AB7F400B61F14 /* ingredients2.csv in Resources */,
 				0FD9C1042C17B0FC00BD3CDD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,21 +416,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F3AEA332CE2A271002EC151 /* KeyframeAnimationView.swift in Sources */,
-				0FCCFAA22C5354BD0079F8D8 /* TodoItemAddButton.swift in Sources */,
-				0F9F09C42C2B4C57004D121D /* CircleView.swift in Sources */,
-				0FCCFAA02C5354A70079F8D8 /* TodoList.swift in Sources */,
-				0F62F2402C5AB68D00B61F14 /* SevenElevenBreathTechView.swift in Sources */,
-				0FB5D4CC2C496C4C00AE3A33 /* StyledRectangle.swift in Sources */,
-				0FB5D4CE2C496E1900AE3A33 /* CirculerProgressView.swift in Sources */,
 				0FD9C1022C17B0FB00BD3CDD /* ContentView.swift in Sources */,
-				0F9F09C62C2B4C63004D121D /* TruckView.swift in Sources */,
-				0F9F09C92C2B4CA5004D121D /* GearView.swift in Sources */,
-				0F5C96492C23428D00311A55 /* MeshGradientWithWheelPickerView.swift in Sources */,
-				0F9F09C22C2B4C3F004D121D /* BreatheView.swift in Sources */,
 				0FD9C1002C17B0FB00BD3CDD /* WWDC24App.swift in Sources */,
-				0F62F23E2C5AB65A00B61F14 /* IngredientAutocompleteView.swift in Sources */,
-				0F09152D2C1D339B00F3A7C5 /* WheelPickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

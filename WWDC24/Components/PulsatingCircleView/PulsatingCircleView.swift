@@ -6,7 +6,7 @@
 //
 import SwiftUI
 
-struct CircleView: View {
+struct PulsatingCircleView: View {
   @State private var scale = 1.0
   
   var body: some View {
@@ -32,6 +32,6 @@ struct CircleView: View {
 }
 
 #Preview {
-  CircleView()
+  PulsatingCircleView()
     .padding()
 }

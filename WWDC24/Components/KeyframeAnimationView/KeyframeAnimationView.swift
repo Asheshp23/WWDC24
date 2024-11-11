@@ -6,13 +6,7 @@
 //
 import SwiftUI
 
-struct AnimationProperties {
-  var translation = 0.0
-  var verticalStretch = 1.0
-}
-
 struct KeyframeAnimationView: View {
-
     var totalDuration = 1.0
     var body: some View {
         Image(systemName: "checkmark.circle.fill")

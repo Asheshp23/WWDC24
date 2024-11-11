@@ -14,6 +14,7 @@ struct TruckView: View {
     .repeatCount(1, autoreverses: true)
     .speed(0.5)
   }
+  
   var body: some View {
     VStack(alignment: driveForward ? .leading : .trailing, spacing: 40) {
       Image(systemName: "box.truck")
@@ -29,4 +30,8 @@ struct TruckView: View {
       }
     }
   }
+}
+
+#Preview {
+  TruckView()
 }

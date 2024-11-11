@@ -51,3 +51,11 @@ struct MeshGradientWithWheelPickerView: View {
     }
   }
 }
+
+#Preview {
+  if #available(iOS 18.0, *) {
+    MeshGradientWithWheelPickerView()
+  } else {
+    // Fallback on earlier versions
+  }
+}
